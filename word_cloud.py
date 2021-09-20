@@ -3,7 +3,7 @@ import os
 import threading
 from menti import *
 
-menti_ID = "3set12msbq"
+menti_ID = "gsqsy22w4p"
 
 post_word_headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " 
@@ -50,11 +50,11 @@ def spam_word_cloud(word_list: list, public_key: str, max_words: int = 3):
             send_word_cloud(word_list, identifier, public_key)
 
 def main():
-    menti_info = get_menti_info() # We only need to get it once
+    menti_info = get_menti_info(menti_ID) # We only need to get it once
     menti_questions = menti_info["questions"]
     public_key = menti_info["pace"]["active"] # Every question has a unique key. this one is the active question's key.
     max_words = int(find_question(menti_questions, public_key)["max_nb_words"]) 
-    my_word_list = list("abcdefghijklmnopqrstuvwxyz") # List of words to post in menti (will cut to max number of words)
+    my_word_list = ["hi", "hello"] # List of words to post in menti (will cut to max number of words)
     spamming = True
 
     if spamming:
