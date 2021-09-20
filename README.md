@@ -56,7 +56,7 @@ Which returns:
 {"identifier":"IDENTIFIER"}
 ```
 
-Now check your Mentimeter presentation:
+After sending your POST request with the required `x-identifier` header and the request payload, check your Mentimeter presentation:
 
 ![It works menti](https://github.com/mmbaguette/Mentimeter-Fun/blob/main/example%20images/word%20cloud%20sample.png?raw=true)
 
