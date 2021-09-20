@@ -25,7 +25,7 @@ Every time you send a word cloud for example, the site sends a GET request to ht
 }
 ```
 
-The `UNIQUE_ID` inside `pace -> active` is used in https://www.menti.com/core/votes/UNIQUE_ID to send a POST request with the folling request data, 
+The `UNIQUE_ID` inside `pace -> active`, which indicates the ID of the current slide, is used in https://www.menti.com/core/votes/UNIQUE_ID to send a POST request with the following request data, 
 where `question_type` is the name of the current activity, and `vote` is a list of words being sent to the word cloud:
 
 ```json
