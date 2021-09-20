@@ -20,12 +20,12 @@ Every time you send a word cloud for example, the site sends a GET request to ht
    "owner_id": 000000,
    "pace":{
       "mode":"presenter",
-      "active":"a_unique_id"
+      "active":"UNIQUE_ID"
    },
 }
 ```
 
-The `pace["active"]` key is used in https://www.menti.com/core/votes/KEY to send a POST request with the folling request data, 
+The `UNIQUE_ID` inside `pace -> active` key is used in https://www.menti.com/core/votes/KEY to send a POST request with the folling request data, 
 where `question_type` is the name of the current activity, and `vote` is a list of words being sent to the word cloud:
 
 ```json
