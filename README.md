@@ -3,7 +3,11 @@
 **Disclaimer:** I made this project for finding vulnerabilities in the Mentimeter website on my own time, and I do not intend to harm Mentimeter or any of its users. 
 I hope that the development team can fix these issues, using these examples.
 
+## About this project
+
 With **Mentimeter-Fun**, you can spam a word cloud, mass-join a quiz, or spam any other interactive presentation.
+
+![Menti submit word cloud](https://github.com/mmbaguette/Mentimeter-Fun/blob/main/example%20images/menti%20submit%20sample.PNG?raw=true)
 
 ## How it works:
 
