@@ -1,7 +1,7 @@
 # Mentimeter Fun
 
 **Disclaimer:** I made this project for finding vulnerabilities in the Mentimeter website on my own time, and I do not intend to harm Mentimeter or any of its users. 
-I hope that the development team can fix these issues, using these examples.
+I hope that the development team can fix these issues using these examples.
 
 ## About this project
 
